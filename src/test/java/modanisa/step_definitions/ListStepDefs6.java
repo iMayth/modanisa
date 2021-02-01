@@ -56,5 +56,7 @@ public class ListStepDefs6 {
         System.out.println(actualresult);
         Assert.assertEquals(expectedresult,actualresult);
 
+        Driver.closeDriver();
     }
+
 }
